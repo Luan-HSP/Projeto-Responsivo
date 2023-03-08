@@ -83,6 +83,10 @@
     display: none;
 }
 
+.container__imagem-color:hover {
+    color: var(--laranja-hover);
+}
+
 @media screen and (min-width: 1024px) {
     .container__titulo--negrito, .container__titulo {
         font-family: var(--font-segundaria);
@@ -162,5 +166,9 @@
 
     .container__texto {
         display: block;
+    }
+
+    .container__texto:hover {
+        color: var(--laranja-hover);
     }
 }

@@ -12,6 +12,12 @@
     width: 100%;
 }
 
+.swiper-slide:hover {
+    transform: scale(1.3);
+    z-index: 2;
+    transition: 1s;
+}
+
 .swiper-button-prev,
 .swiper-button-next {
     display: none;
@@ -36,13 +42,14 @@
     display: flex;
     background: var(--branco);
     margin-bottom: 1em;
+    justify-content: space-between;
+    
 }
 
 .descrição {
     flex-direction: column;
-    
-
 }
+
 
 .descrição__titulo {
     color: var(--laranja);
@@ -83,10 +90,14 @@
     background-color: var(--laranja);
     color: var(--branco);
     padding: 1em 2.2em;
-    text-decoration: none;
-
-    
+    text-decoration: none;    
 }
+
+.botoes__ancora:hover {
+    background-color: var(--laranja-hover);
+   
+}
+
 
 .carrossel2 {
     font-family: var(--font-principal);
@@ -163,7 +174,6 @@
     }
     
     .card {
-        width: 60%;
-        margin: 4em 0 0 3em;
+       margin: 4em 0 0 3em;
     }
 }
